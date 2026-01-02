@@ -1,0 +1,52 @@
+{
+  "careers": [
+    {
+      "id": "software_developer",
+      "title": "Software Developer",
+      "subjects": ["Data Structures & Algorithms", "Programming Fundamentals", "Object-Oriented Programming", "Database Management Systems"],
+      "skills": ["Python", "Java", "C++", "Git & GitHub"],
+      "interests": ["Technology", "Software"],
+      "description": "Designs, develops, and maintains software applications."
+    },
+    {
+      "id": "web_developer",
+      "title": "Web Developer",
+      "subjects": ["HTML", "CSS", "JavaScript", "Database Management Systems"],
+      "skills": ["HTML", "CSS", "JavaScript", "React", "Node.js", "API Integration"],
+      "interests": ["Web", "Design", "Technology"],
+      "description": "Builds responsive and interactive websites and web apps."
+    },
+    {
+      "id": "data_analyst",
+      "title": "Data Analyst",
+      "subjects": ["Probability & Statistics", "Database Management Systems"],
+      "skills": ["Python", "SQL", "Problem Solving"],
+      "interests": ["Data", "Analysis"],
+      "description": "Analyzes data to generate insights and support decisions."
+    },
+    {
+      "id": "machine_learning_engineer",
+      "title": "Machine Learning Engineer",
+      "subjects": ["Linear Algebra", "Probability & Statistics", "Machine Learning", "Deep Learning"],
+      "skills": ["Python", "Machine Learning", "Deep Learning", "Problem Solving"],
+      "interests": ["AI", "Data", "Research"],
+      "description": "Builds and deploys machine learning models."
+    },
+    {
+      "id": "ui_ux_designer",
+      "title": "UI/UX Designer",
+      "subjects": ["HTML", "CSS"],
+      "skills": ["Problem Solving", "API Integration"],
+      "interests": ["Design", "Technology"],
+      "description": "Designs intuitive and user-friendly interfaces."
+    },
+    {
+      "id": "cloud_engineer",
+      "title": "Cloud Engineer",
+      "subjects": ["Operating Systems", "Computer Networks"],
+      "skills": ["Linux Basics", "Cloud Basics", "Problem Solving"],
+      "interests": ["Technology", "Software"],
+      "description": "Manages cloud infrastructure and deployment systems."
+    }
+  ]
+}
