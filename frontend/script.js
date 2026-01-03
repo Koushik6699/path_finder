@@ -12,11 +12,11 @@ function toggleTag(btn) { btn.classList.toggle('selected'); }
 // Load JSON logic
 async function loadCareers() {
     try {
-        const response = await fetch("backend/careers.json");
+        const response = await fetch("careers.json");
         const data = await response.json();
         careersData = data.careers;
     } catch (e) {
-        console.error("Check if backend/careers.json exists and is valid.");
+        console.error("Check if careers.json exists and is valid.");
     }
 }
 loadCareers();
