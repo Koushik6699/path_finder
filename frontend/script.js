@@ -1,5 +1,5 @@
 let careersData = [];
-const API_URL = "https://kchat-ai-euqm.onrender.com/chat";
+const API_URL = "https://path-finder-1-s5ob.onrender.com/chat";
 
 // Theme Toggle
 function toggleTheme() { 
@@ -81,6 +81,7 @@ async function askAI(careerId) {
     1. Why it suits me? (Max 2 sentences).
     2. 3 Action steps (Bullet points).
     3. Top 3 Keywords.
+    4. short explaination about thsi job and why i fit(max 3 points, each point 1 or 2 lines and use dot as bullets)
     Keep it extremely short and professional. Do not use hashtags. Use simple bolding.`;
 
     try {
