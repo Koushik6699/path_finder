@@ -3,50 +3,164 @@
     {
       "id": "software_developer",
       "title": "Software Developer",
-      "subjects": ["Data Structures & Algorithms", "Programming Fundamentals", "Object-Oriented Programming", "Database Management Systems"],
-      "skills": ["Python", "Java", "C++", "Git & GitHub"],
-      "interests": ["Technology", "Software"],
-      "description": "Designs, develops, and maintains software applications."
+      "subjects": [
+        "Programming Fundamentals",
+        "Data Structures & Algorithms",
+        "Object-Oriented Programming",
+        "Database Management Systems",
+        "Operating Systems",
+        "Computer Networks"
+      ],
+      "skills": [
+        "C",
+        "C++",
+        "Java",
+        "Python",
+        "Git & GitHub",
+        "Problem Solving"
+      ],
+      "interests": [
+        "Technology",
+        "Software Engineering"
+      ],
+      "description": "Designs, develops, tests, and maintains scalable software applications."
     },
     {
       "id": "web_developer",
       "title": "Web Developer",
-      "subjects": ["HTML", "CSS", "JavaScript", "Database Management Systems"],
-      "skills": ["HTML", "CSS", "JavaScript", "React", "Node.js", "API Integration"],
-      "interests": ["Web", "Design", "Technology"],
-      "description": "Builds responsive and interactive websites and web apps."
+      "subjects": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Database Management Systems",
+        "Computer Networks"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "API Integration",
+        "Git & GitHub"
+      ],
+      "interests": [
+        "Web",
+        "Design",
+        "Technology"
+      ],
+      "description": "Builds responsive, fast, and interactive websites and web applications."
     },
     {
       "id": "data_analyst",
       "title": "Data Analyst",
-      "subjects": ["Probability & Statistics", "Database Management Systems"],
-      "skills": ["Python", "SQL", "Problem Solving"],
-      "interests": ["Data", "Analysis"],
-      "description": "Analyzes data to generate insights and support decisions."
+      "subjects": [
+        "Probability & Statistics",
+        "Database Management Systems",
+        "Linear Algebra"
+      ],
+      "skills": [
+        "Python",
+        "SQL",
+        "Data Visualization",
+        "Excel",
+        "Problem Solving"
+      ],
+      "interests": [
+        "Data",
+        "Analysis",
+        "Business"
+      ],
+      "description": "Analyzes structured data to extract insights and support decision-making."
     },
     {
       "id": "machine_learning_engineer",
       "title": "Machine Learning Engineer",
-      "subjects": ["Linear Algebra", "Probability & Statistics", "Machine Learning", "Deep Learning"],
-      "skills": ["Python", "Machine Learning", "Deep Learning", "Problem Solving"],
-      "interests": ["AI", "Data", "Research"],
-      "description": "Builds and deploys machine learning models."
+      "subjects": [
+        "Linear Algebra",
+        "Probability & Statistics",
+        "Machine Learning",
+        "Deep Learning",
+        "Data Structures & Algorithms"
+      ],
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "Deep Learning",
+        "Model Deployment",
+        "Problem Solving"
+      ],
+      "interests": [
+        "AI",
+        "Data",
+        "Research"
+      ],
+      "description": "Develops, trains, and deploys machine learning models in real-world systems."
     },
     {
       "id": "ui_ux_designer",
       "title": "UI/UX Designer",
-      "subjects": ["HTML", "CSS"],
-      "skills": ["Problem Solving", "API Integration"],
-      "interests": ["Design", "Technology"],
-      "description": "Designs intuitive and user-friendly interfaces."
+      "subjects": [
+        "HTML",
+        "CSS",
+        "Human Computer Interaction"
+      ],
+      "skills": [
+        "UI Design",
+        "UX Research",
+        "Wireframing",
+        "Prototyping",
+        "Problem Solving"
+      ],
+      "interests": [
+        "Design",
+        "Creativity",
+        "Technology"
+      ],
+      "description": "Designs user-friendly interfaces and improves overall user experience."
     },
     {
       "id": "cloud_engineer",
       "title": "Cloud Engineer",
-      "subjects": ["Operating Systems", "Computer Networks"],
-      "skills": ["Linux Basics", "Cloud Basics", "Problem Solving"],
-      "interests": ["Technology", "Software"],
-      "description": "Manages cloud infrastructure and deployment systems."
+      "subjects": [
+        "Operating Systems",
+        "Computer Networks",
+        "Database Management Systems"
+      ],
+      "skills": [
+        "Linux",
+        "Cloud Computing",
+        "Docker",
+        "CI/CD",
+        "Problem Solving"
+      ],
+      "interests": [
+        "Cloud",
+        "Infrastructure",
+        "Technology"
+      ],
+      "description": "Manages cloud infrastructure, deployment pipelines, and system reliability."
+    },
+    {
+      "id": "cyber_security_engineer",
+      "title": "Cyber Security Engineer",
+      "subjects": [
+        "Computer Networks",
+        "Operating Systems",
+        "Cryptography"
+      ],
+      "skills": [
+        "Network Security",
+        "Linux",
+        "Ethical Hacking",
+        "Problem Solving"
+      ],
+      "interests": [
+        "Security",
+        "Technology",
+        "Networking"
+      ],
+      "description": "Protects systems, networks, and data from cyber threats and attacks."
     }
   ]
 }

@@ -1,0 +1,252 @@
+{
+  "career": "software_developer",
+  "subjects": [
+    {
+      "name": "DSA",
+      "questions": [
+        {
+          "id": 1,
+          "difficulty": "easy",
+          "type": "short",
+          "question": "What is a data structure?",
+          "answer": "A data structure is a way to store and organize data efficiently for access and modification."
+        },
+        {
+          "id": 2,
+          "difficulty": "easy",
+          "type": "mcq",
+          "question": "Which data structure follows FIFO principle?",
+          "options": ["Stack", "Queue", "Tree", "Graph"],
+          "correct": "Queue"
+        },
+        {
+          "id": 3,
+          "difficulty": "medium",
+          "type": "mcq",
+          "question": "What is the time complexity of binary search?",
+          "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+          "correct": "O(log n)"
+        },
+        {
+          "id": 4,
+          "difficulty": "medium",
+          "type": "short",
+          "question": "Explain the difference between stack and queue.",
+          "answer": "Stack follows LIFO while queue follows FIFO order."
+        },
+        {
+          "id": 5,
+          "difficulty": "medium",
+          "type": "mcq",
+          "question": "Which traversal gives sorted output in a BST?",
+          "options": ["Preorder", "Postorder", "Inorder", "Level order"],
+          "correct": "Inorder"
+        },
+        {
+          "id": 6,
+          "difficulty": "hard",
+          "type": "mcq",
+          "question": "Which data structure is best for implementing recursion?",
+          "options": ["Queue", "Array", "Stack", "Linked List"],
+          "correct": "Stack"
+        },
+        {
+          "id": 7,
+          "difficulty": "hard",
+          "type": "short",
+          "question": "Why is merge sort preferred over quick sort in linked lists?",
+          "answer": "Merge sort does not require random access and works efficiently with linked lists."
+        },
+        {
+          "id": 8,
+          "difficulty": "hard",
+          "type": "mcq",
+          "question": "What is the worst-case time complexity of quick sort?",
+          "options": ["O(n log n)", "O(log n)", "O(n^2)", "O(n)"],
+          "correct": "O(n^2)"
+        },
+        {
+          "id": 9,
+          "difficulty": "interview",
+          "type": "short",
+          "question": "Design a data structure to get min element in O(1).",
+          "answer": "Use an auxiliary stack along with the main stack."
+        },
+        {
+          "id": 10,
+          "difficulty": "interview",
+          "type": "mcq",
+          "question": "Which problem is best solved using two pointers?",
+          "options": ["Binary search", "Palindrome check", "Tree traversal", "Graph cycle detection"],
+          "correct": "Palindrome check"
+        }
+      ]
+    },
+    {
+      "name": "HTML",
+      "questions": [
+        {
+          "id": 1,
+          "difficulty": "easy",
+          "type": "short",
+          "question": "What does HTML stand for?",
+          "answer": "HyperText Markup Language"
+        },
+        {
+          "id": 2,
+          "difficulty": "easy",
+          "type": "mcq",
+          "question": "Which tag is used to create a hyperlink?",
+          "options": ["<link>", "<a>", "<href>", "<url>"],
+          "correct": "<a>"
+        },
+        {
+          "id": 3,
+          "difficulty": "medium",
+          "type": "mcq",
+          "question": "Which HTML element is semantic?",
+          "options": ["<div>", "<span>", "<section>", "<b>"],
+          "correct": "<section>"
+        },
+        {
+          "id": 4,
+          "difficulty": "medium",
+          "type": "short",
+          "question": "Difference between inline and block elements?",
+          "answer": "Inline elements do not start a new line; block elements do."
+        },
+        {
+          "id": 5,
+          "difficulty": "medium",
+          "type": "mcq",
+          "question": "Which attribute is used to open a link in a new tab?",
+          "options": ["href", "target", "rel", "src"],
+          "correct": "target"
+        },
+        {
+          "id": 6,
+          "difficulty": "hard",
+          "type": "short",
+          "question": "Explain accessibility in HTML.",
+          "answer": "Accessibility ensures content is usable by people with disabilities using semantic tags and ARIA."
+        },
+        {
+          "id": 7,
+          "difficulty": "hard",
+          "type": "mcq",
+          "question": "Which tag improves SEO?",
+          "options": ["<div>", "<meta>", "<header>", "<span>"],
+          "correct": "<header>"
+        },
+        {
+          "id": 8,
+          "difficulty": "hard",
+          "type": "mcq",
+          "question": "What is the purpose of the <figure> tag?",
+          "options": ["Layout", "Image grouping", "Animation", "Form input"],
+          "correct": "Image grouping"
+        },
+        {
+          "id": 9,
+          "difficulty": "interview",
+          "type": "short",
+          "question": "How does browser render HTML?",
+          "answer": "HTML is parsed into DOM, CSS into CSSOM, then combined to render tree."
+        },
+        {
+          "id": 10,
+          "difficulty": "interview",
+          "type": "mcq",
+          "question": "Which HTML feature supports responsive design?",
+          "options": ["Viewport meta", "Iframe", "Canvas", "SVG"],
+          "correct": "Viewport meta"
+        }
+      ]
+    },
+    {
+      "name": "Python",
+      "questions": [
+        {
+          "id": 1,
+          "difficulty": "easy",
+          "type": "short",
+          "question": "What is Python?",
+          "answer": "Python is a high-level, interpreted programming language."
+        },
+        {
+          "id": 2,
+          "difficulty": "easy",
+          "type": "mcq",
+          "question": "Which keyword is used to define a function?",
+          "options": ["func", "define", "def", "function"],
+          "correct": "def"
+        },
+        {
+          "id": 3,
+          "difficulty": "medium",
+          "type": "mcq",
+          "question": "Which data type is immutable?",
+          "options": ["List", "Set", "Dictionary", "Tuple"],
+          "correct": "Tuple"
+        },
+        {
+          "id": 4,
+          "difficulty": "medium",
+          "type": "short",
+          "question": "Explain list comprehension.",
+          "answer": "Compact syntax to create lists using expressions."
+        },
+        {
+          "id": 5,
+          "difficulty": "medium",
+          "type": "mcq",
+          "question": "What does PEP stand for?",
+          "options": ["Python Easy Program", "Python Enhancement Proposal", "Program Execution Plan", "Python Entry Point"],
+          "correct": "Python Enhancement Proposal"
+        },
+        {
+          "id": 6,
+          "difficulty": "hard",
+          "type": "short",
+          "question": "Explain GIL in Python.",
+          "answer": "Global Interpreter Lock allows only one thread to execute at a time."
+        },
+        {
+          "id": 7,
+          "difficulty": "hard",
+          "type": "mcq",
+          "question": "Which module supports asynchronous programming?",
+          "options": ["threading", "asyncio", "multiprocessing", "time"],
+          "correct": "asyncio"
+        },
+        {
+          "id": 8,
+          "difficulty": "hard",
+          "type": "mcq",
+          "question": "Which decorator is used for static methods?",
+          "options": ["@classmethod", "@staticmethod", "@method", "@decorator"],
+          "correct": "@staticmethod"
+        },
+        {
+          "id": 9,
+          "difficulty": "interview",
+          "type": "short",
+          "question": "Difference between deep copy and shallow copy?",
+          "answer": "Deep copy duplicates objects; shallow copy references them."
+        },
+        {
+          "id": 10,
+          "difficulty": "interview",
+          "type": "mcq",
+          "question": "Which Python feature supports memory efficiency?",
+          "options": ["List", "Tuple", "Generator", "Dictionary"],
+          "correct": "Generator"
+        }
+      ]
+    }
+  ]
+}
+
+
+
+
