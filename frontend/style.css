@@ -20,7 +20,7 @@
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', sans-serif; }
-body { background: var(--bg); color: var(--text); transition: 0.3s; line-height: 1.5; }
+body { background: var(--bg); color: var(--text); transition: 0.3s; line-height: 1.5; overflow-x: hidden; }
 
 /* Navbar */
 .navbar {
@@ -34,49 +34,48 @@ body { background: var(--bg); color: var(--text); transition: 0.3s; line-height:
 
 /* Hero */
 .hero { padding: 80px 8% 40px; text-align: center; }
-.hero h1 { font-size: 3rem; font-weight: 800; }
+.hero h1 { font-size: 3rem; font-weight: 800; line-height: 1.2; }
 .gradient-text { background: linear-gradient(90deg, var(--primary), var(--secondary)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 
-/* Features Section (Professional Icons) */
+/* Features */
 .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-top: 40px; }
-.feature-card { background: var(--card); padding: 20px; border-radius: 12px; border: 1px solid var(--border); text-align: center; }
-.feature-card h3 { font-size: 1rem; margin-top: 10px; }
-.feature-card p { font-size: 0.85rem; color: var(--muted); }
+.feature-card { background: var(--card); padding: 20px; border-radius: 12px; border: 1px solid var(--border); transition: transform 0.2s; }
+.feature-card:hover { transform: translateY(-5px); }
 
 /* Assessment */
 .assessment-section { padding: 40px 8%; }
-.assessment-container { max-width: 800px; margin: auto; background: var(--card); padding: 30px; border-radius: 20px; border: 1px solid var(--border); }
+.assessment-container { max-width: 800px; margin: auto; background: var(--card); padding: 30px; border-radius: 20px; border: 1px solid var(--border); box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
 .form-section { margin-bottom: 30px; }
-.checkbox-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 10px; }
+.section-header { display: flex; align-items: center; gap: 10px; margin-bottom: 15px; }
+.step-num { background: var(--primary); color: white; padding: 4px 10px; border-radius: 8px; font-weight: bold; font-size: 0.8rem; }
+
+.checkbox-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; }
 .chip input { display: none; }
-.chip span { display: block; padding: 10px; border: 1px solid var(--border); border-radius: 10px; cursor: pointer; text-align: center; font-weight: 600; font-size: 0.85rem; background: var(--bg); }
-.chip input:checked + span { background: var(--primary); color: white; border-color: var(--primary); }
+.chip span { display: block; padding: 12px; border: 1px solid var(--border); border-radius: 10px; cursor: pointer; text-align: center; font-weight: 600; font-size: 0.8rem; background: var(--bg); transition: 0.2s; }
+.chip input:checked + span { background: var(--primary); color: white; border-color: var(--primary); transform: scale(0.95); }
 
 .interest-tags { display: flex; flex-wrap: wrap; gap: 8px; }
-.tag-btn { padding: 8px 16px; border-radius: 20px; border: 1px solid var(--border); background: var(--bg); cursor: pointer; font-size: 0.85rem; }
-.tag-btn.selected { background: var(--secondary); color: white; }
+.tag-btn { padding: 8px 18px; border-radius: 20px; border: 1px solid var(--border); background: var(--bg); cursor: pointer; font-size: 0.85rem; color: var(--text); transition: 0.2s; }
+.tag-btn.selected { background: var(--secondary); color: white; border-color: var(--secondary); }
 
 /* Results */
 .page { display: none; padding: 40px 8%; animation: fadeIn 0.4s ease; }
-.results-grid { display: grid; grid-template-columns: 1fr; gap: 20px; max-width: 700px; margin: 20px auto; }
-.career-card { background: var(--card); padding: 25px; border-radius: 16px; border: 1px solid var(--border); position: relative; }
-.card-badge { position: absolute; top: 15px; right: 15px; background: #e0e7ff; color: var(--primary); padding: 2px 10px; border-radius: 12px; font-size: 0.75rem; font-weight: bold; }
+.results-header { text-align: center; margin-bottom: 30px; }
+.results-grid { display: grid; grid-template-columns: 1fr; gap: 20px; max-width: 750px; margin: 20px auto; }
+.career-card { background: var(--card); padding: 25px; border-radius: 16px; border: 1px solid var(--border); position: relative; transition: 0.3s; }
+.career-card:hover { border-color: var(--primary); }
+.card-badge { position: absolute; top: 15px; right: 15px; background: var(--accent); color: var(--primary); padding: 4px 12px; border-radius: 12px; font-size: 0.75rem; font-weight: bold; }
 
-.btn-primary { background: var(--primary); color: white; border: none; padding: 10px 20px; border-radius: 8px; cursor: pointer; font-weight: 700; font-size: 0.9rem; }
-.btn-secondary { background: var(--accent); padding: 10px 20px; border: none; border-radius: 8px; cursor: pointer; margin-top: 20px; color: var(--text); }
+.btn-primary { background: var(--primary); color: white; border: none; padding: 12px 24px; border-radius: 8px; cursor: pointer; font-weight: 700; transition: 0.2s; }
+.btn-primary:hover { background: var(--primary-hover); }
+.btn-primary:disabled { opacity: 0.6; cursor: not-allowed; }
+.large-btn { width: 100%; font-size: 1rem; }
 
-/* AI Insight Area */
+/* AI Section */
 .ai-insight-area { margin-top: 15px; border-top: 1px solid var(--border); padding-top: 15px; }
-.ai-response-box { 
-    background: var(--accent); 
-    padding: 15px; 
-    border-radius: 10px; 
-    font-size: 0.85rem; 
-    border-left: 3px solid var(--primary);
-    color: var(--text);
-}
-.ai-content b { color: var(--primary); }
+.ai-response-box { background: var(--accent); padding: 15px; border-radius: 10px; font-size: 0.9rem; border-left: 4px solid var(--primary); margin-top: 10px; }
 
-.loader { border: 2px solid #f3f3f3; border-top: 2px solid var(--primary); border-radius: 50%; width: 14px; height: 14px; animation: spin 1s linear infinite; display: inline-block; }
+.loader { border: 2px solid rgba(255,255,255,0.3); border-top: 2px solid white; border-radius: 50%; width: 14px; height: 14px; animation: spin 0.8s linear infinite; display: inline-block; vertical-align: middle; margin-right: 5px; }
+
 @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
-@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }

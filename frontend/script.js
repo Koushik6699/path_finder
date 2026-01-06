@@ -36,6 +36,7 @@ function showResults() {
     const container = document.getElementById("resultsContainer");
     container.innerHTML = "";
 
+    // Weighted Scoring logic (Subjects: 3, Skills: 5, Interests: 2)
     const results = careersData.map(career => {
         let score = 0;
         user.subjects.forEach(s => { if (career.subjects.includes(s)) score += 3; });
@@ -50,7 +51,7 @@ function showResults() {
         card.innerHTML = `
             <div class="card-badge">Match Score: ${career.score}</div>
             <h3>${career.title}</h3>
-            <p style="font-size: 0.9rem; color: var(--muted); margin-bottom: 10px;">${career.description}</p>
+            <p style="font-size: 0.9rem; color: var(--muted); margin-bottom: 15px;">${career.description}</p>
             
             <div class="ai-insight-area" id="ai-area-${career.id}">
                 <button class="btn-primary" onclick="askAI('${career.id}')" id="btn-${career.id}">
@@ -76,7 +77,6 @@ async function askAI(careerId) {
     responseBox.style.display = "block";
     responseBox.innerHTML = "Generating summary...";
 
-    // Updated prompt to force the AI to be very brief
     const prompt = `Role: ${career.title}. 
     1. Why it suits me? (Max 2 sentences).
     2. 3 Action steps (Bullet points).
@@ -101,13 +101,12 @@ async function askAI(careerId) {
     }
 }
 
-// Fixed Formatter: Removes ##, ### and converts ** to <b>
 function formatAIResponse(text) {
     let cleanText = text
-        .replace(/#{1,6}\s?/g, '') // Removes all ### or ## headers
-        .replace(/\*\*(.*?)\*\*/g, '<b>$1</b>') // Converts **bold** to <b>bold</b>
-        .replace(/\*(.*?)\*/g, '<i>$1</i>') // Converts *italic* to <i>italic</i>
-        .replace(/\n/g, '<br>'); // Converts newlines to line breaks
+        .replace(/#{1,6}\s?/g, '') 
+        .replace(/\*\*(.*?)\*\*/g, '<b>$1</b>') 
+        .replace(/\*(.*?)\*/g, '<i>$1</i>') 
+        .replace(/\n/g, '<br>'); 
 
     return `<div class="ai-content">${cleanText}</div>`;
 }

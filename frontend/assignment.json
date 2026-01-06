@@ -1,252 +1,84 @@
 {
-  "career": "software_developer",
-  "subjects": [
+  "assignments": [
     {
-      "name": "DSA",
+      "career_id": "software_developer",
       "questions": [
-        {
-          "id": 1,
-          "difficulty": "easy",
-          "type": "short",
-          "question": "What is a data structure?",
-          "answer": "A data structure is a way to store and organize data efficiently for access and modification."
-        },
-        {
-          "id": 2,
-          "difficulty": "easy",
-          "type": "mcq",
-          "question": "Which data structure follows FIFO principle?",
-          "options": ["Stack", "Queue", "Tree", "Graph"],
-          "correct": "Queue"
-        },
-        {
-          "id": 3,
-          "difficulty": "medium",
-          "type": "mcq",
-          "question": "What is the time complexity of binary search?",
-          "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
-          "correct": "O(log n)"
-        },
-        {
-          "id": 4,
-          "difficulty": "medium",
-          "type": "short",
-          "question": "Explain the difference between stack and queue.",
-          "answer": "Stack follows LIFO while queue follows FIFO order."
-        },
-        {
-          "id": 5,
-          "difficulty": "medium",
-          "type": "mcq",
-          "question": "Which traversal gives sorted output in a BST?",
-          "options": ["Preorder", "Postorder", "Inorder", "Level order"],
-          "correct": "Inorder"
-        },
-        {
-          "id": 6,
-          "difficulty": "hard",
-          "type": "mcq",
-          "question": "Which data structure is best for implementing recursion?",
-          "options": ["Queue", "Array", "Stack", "Linked List"],
-          "correct": "Stack"
-        },
-        {
-          "id": 7,
-          "difficulty": "hard",
-          "type": "short",
-          "question": "Why is merge sort preferred over quick sort in linked lists?",
-          "answer": "Merge sort does not require random access and works efficiently with linked lists."
-        },
-        {
-          "id": 8,
-          "difficulty": "hard",
-          "type": "mcq",
-          "question": "What is the worst-case time complexity of quick sort?",
-          "options": ["O(n log n)", "O(log n)", "O(n^2)", "O(n)"],
-          "correct": "O(n^2)"
-        },
-        {
-          "id": 9,
-          "difficulty": "interview",
-          "type": "short",
-          "question": "Design a data structure to get min element in O(1).",
-          "answer": "Use an auxiliary stack along with the main stack."
-        },
-        {
-          "id": 10,
-          "difficulty": "interview",
-          "type": "mcq",
-          "question": "Which problem is best solved using two pointers?",
-          "options": ["Binary search", "Palindrome check", "Tree traversal", "Graph cycle detection"],
-          "correct": "Palindrome check"
-        }
+        { "id": 1, "level": "Medium", "q": "What is the time complexity of searching in a balanced Binary Search Tree?", "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"], "a": "O(log n)" },
+        { "id": 2, "level": "Medium", "q": "Which principle of OOP focus on hiding internal details?", "options": ["Inheritance", "Polymorphism", "Encapsulation", "Abstraction"], "a": "Encapsulation" },
+        { "id": 3, "level": "Medium", "q": "In C++, what is a virtual function used for?", "options": ["Memory management", "Runtime Polymorphism", "Static linking", "File I/O"], "a": "Runtime Polymorphism" },
+        { "id": 4, "level": "Medium", "q": "Which data structure is best for implementing a Undo/Redo feature?", "options": ["Queue", "Stack", "Linked List", "Hash Map"], "a": "Stack" },
+        { "id": 5, "level": "Medium", "q": "What does a 'Foreign Key' ensure in a database?", "options": ["Uniqueness", "Referential Integrity", "Speed", "Encryption"], "a": "Referential Integrity" },
+        { "id": 6, "level": "Hard", "q": "Explain the difference between a Process and a Thread.", "options": ["Threads share memory, processes don't", "Processes share memory, threads don't", "Both are exactly the same", "Processes are faster than threads"], "a": "Threads share memory, processes don't" },
+        { "id": 7, "level": "Hard", "q": "What is a 'deadlock' in Operating Systems?", "options": ["System crash", "Infinite loop", "Circular wait between processes", "Memory leak"], "a": "Circular wait between processes" },
+        { "id": 8, "level": "Hard", "q": "Which sorting algorithm has the best worst-case time complexity?", "options": ["Quick Sort", "Merge Sort", "Bubble Sort", "Insertion Sort"], "a": "Merge Sort" },
+        { "id": 9, "level": "Hard", "q": "In Git, what is 'rebasing'?", "options": ["Deleting a branch", "Merging two files", "Moving a sequence of commits to a new base", "Uploading to GitHub"], "a": "Moving a sequence of commits to a new base" },
+        { "id": 10, "level": "Hard", "q": "What is the primary use of a 'Semaphore'?", "options": ["To sort data", "To manage shared resources (Mutual Exclusion)", "To speed up internet", "To store passwords"], "a": "To manage shared resources (Mutual Exclusion)" },
+        { "id": 11, "level": "Interview", "q": "Design a system that handles millions of requests. What is the first bottleneck?", "options": ["CPU speed", "Database I/O", "RAM capacity", "Keyboard latency"], "a": "Database I/O" },
+        { "id": 12, "level": "Interview", "q": "How would you detect a cycle in a Linked List?", "options": ["Binary Search", "Floyd’s Cycle-Finding Algorithm", "Recursive sum", "Using a Stack"], "a": "Floyd’s Cycle-Finding Algorithm" },
+        { "id": 13, "level": "Interview", "q": "What is the diamond problem in C++?", "options": ["Memory leak", "Ambiguity in Multiple Inheritance", "Slow compilation", "Pointer error"], "a": "Ambiguity in Multiple Inheritance" },
+        { "id": 14, "level": "Interview", "q": "What is 'normalization' in DBMS?", "options": ["Adding more data", "Reducing data redundancy", "Backing up data", "Creating UI"], "a": "Reducing data redundancy" },
+        { "id": 15, "level": "Interview", "q": "Difference between Mutex and Semaphore?", "options": ["Mutex is a signaling mechanism", "Mutex is locking, Semaphore is signaling", "They are identical", "Semaphore is only for threads"], "a": "Mutex is locking, Semaphore is signaling" }
       ]
     },
     {
-      "name": "HTML",
+      "career_id": "web_developer",
       "questions": [
-        {
-          "id": 1,
-          "difficulty": "easy",
-          "type": "short",
-          "question": "What does HTML stand for?",
-          "answer": "HyperText Markup Language"
-        },
-        {
-          "id": 2,
-          "difficulty": "easy",
-          "type": "mcq",
-          "question": "Which tag is used to create a hyperlink?",
-          "options": ["<link>", "<a>", "<href>", "<url>"],
-          "correct": "<a>"
-        },
-        {
-          "id": 3,
-          "difficulty": "medium",
-          "type": "mcq",
-          "question": "Which HTML element is semantic?",
-          "options": ["<div>", "<span>", "<section>", "<b>"],
-          "correct": "<section>"
-        },
-        {
-          "id": 4,
-          "difficulty": "medium",
-          "type": "short",
-          "question": "Difference between inline and block elements?",
-          "answer": "Inline elements do not start a new line; block elements do."
-        },
-        {
-          "id": 5,
-          "difficulty": "medium",
-          "type": "mcq",
-          "question": "Which attribute is used to open a link in a new tab?",
-          "options": ["href", "target", "rel", "src"],
-          "correct": "target"
-        },
-        {
-          "id": 6,
-          "difficulty": "hard",
-          "type": "short",
-          "question": "Explain accessibility in HTML.",
-          "answer": "Accessibility ensures content is usable by people with disabilities using semantic tags and ARIA."
-        },
-        {
-          "id": 7,
-          "difficulty": "hard",
-          "type": "mcq",
-          "question": "Which tag improves SEO?",
-          "options": ["<div>", "<meta>", "<header>", "<span>"],
-          "correct": "<header>"
-        },
-        {
-          "id": 8,
-          "difficulty": "hard",
-          "type": "mcq",
-          "question": "What is the purpose of the <figure> tag?",
-          "options": ["Layout", "Image grouping", "Animation", "Form input"],
-          "correct": "Image grouping"
-        },
-        {
-          "id": 9,
-          "difficulty": "interview",
-          "type": "short",
-          "question": "How does browser render HTML?",
-          "answer": "HTML is parsed into DOM, CSS into CSSOM, then combined to render tree."
-        },
-        {
-          "id": 10,
-          "difficulty": "interview",
-          "type": "mcq",
-          "question": "Which HTML feature supports responsive design?",
-          "options": ["Viewport meta", "Iframe", "Canvas", "SVG"],
-          "correct": "Viewport meta"
-        }
+        { "id": 1, "level": "Medium", "q": "Which CSS property is used to create a flex container?", "options": ["flex: box", "display: flex", "align: center", "float: left"], "a": "display: flex" },
+        { "id": 2, "level": "Medium", "q": "What does semantic HTML mean?", "options": ["Using <div> for everything", "Using tags that describe content meaning", "Minifying code", "Using JS in HTML"], "a": "Using tags that describe content meaning" },
+        { "id": 3, "level": "Medium", "q": "In JavaScript, what is 'hoisting'?", "options": ["Moving declarations to the top", "De-allocating memory", "Adding style to elements", "API calling"], "a": "Moving declarations to the top" },
+        { "id": 4, "level": "Medium", "q": "What is the purpose of the 'alt' attribute in an <img> tag?", "options": ["Styling images", "Alternative text for accessibility", "Setting image height", "Link to next page"], "a": "Alternative text for accessibility" },
+        { "id": 5, "level": "Medium", "q": "What is the DOM in web development?", "options": ["Data Object Model", "Document Object Model", "Digital Order Method", "Desktop Only Mode"], "a": "Document Object Model" },
+        { "id": 6, "level": "Hard", "q": "What is the difference between '==' and '===' in JS?", "options": ["No difference", "== checks value, === checks value and type", "== is faster", "=== is for numbers only"], "a": "== checks value, === checks value and type" },
+        { "id": 7, "level": "Hard", "q": "What is a 'closure' in JavaScript?", "options": ["Function ending", "Inner function accessing outer scope", "Closing a tab", "A private class"], "a": "Inner function accessing outer scope" },
+        { "id": 8, "level": "Hard", "q": "In React, what is the 'Virtual DOM'?", "options": ["The actual HTML", "A lightweight copy of the real DOM", "A browser plugin", "Server-side storage"], "a": "A lightweight copy of the real DOM" },
+        { "id": 9, "level": "Hard", "q": "What does 'Event Delegation' refer to?", "options": ["Deleting events", "Attaching listener to parent for child events", "Triggering events manually", "Async programming"], "a": "Attaching listener to parent for child events" },
+        { "id": 10, "level": "Hard", "q": "What is the 'Box Model' in CSS?", "options": ["Layout of containers", "Margin, Border, Padding, Content", "3D transform", "Flexbox algorithm"], "a": "Margin, Border, Padding, Content" },
+        { "id": 11, "level": "Interview", "q": "Explain CSS Specificity.", "options": ["Speed of CSS loading", "Weight applied to a CSS declaration", "Color intensity", "Browser support list"], "a": "Weight applied to a CSS declaration" },
+        { "id": 12, "level": "Interview", "q": "What is SSR (Server-Side Rendering) vs CSR (Client-Side Rendering)?", "options": ["SSR is for mobile", "SSR renders on server, CSR on browser", "CSR is older", "They are the same"], "a": "SSR renders on server, CSR on browser" },
+        { "id": 13, "level": "Interview", "q": "How does 'this' keyword work in JS arrow functions?", "options": ["Bound to function", "Inherits from lexical parent", "Always global", "Always null"], "a": "Inherits from lexical parent" },
+        { "id": 14, "level": "Interview", "q": "What is CORS?", "options": ["Core Object system", "Cross-Origin Resource Sharing", "CSS Optimization", "Cloud Storage"], "a": "Cross-Origin Resource Sharing" },
+        { "id": 15, "level": "Interview", "q": "What is the purpose of 'Promises' in JS?", "options": ["Declaring variables", "Handling asynchronous operations", "Looping through arrays", "Styling text"], "a": "Handling asynchronous operations" }
       ]
     },
     {
-      "name": "Python",
+      "career_id": "machine_learning_engineer",
       "questions": [
-        {
-          "id": 1,
-          "difficulty": "easy",
-          "type": "short",
-          "question": "What is Python?",
-          "answer": "Python is a high-level, interpreted programming language."
-        },
-        {
-          "id": 2,
-          "difficulty": "easy",
-          "type": "mcq",
-          "question": "Which keyword is used to define a function?",
-          "options": ["func", "define", "def", "function"],
-          "correct": "def"
-        },
-        {
-          "id": 3,
-          "difficulty": "medium",
-          "type": "mcq",
-          "question": "Which data type is immutable?",
-          "options": ["List", "Set", "Dictionary", "Tuple"],
-          "correct": "Tuple"
-        },
-        {
-          "id": 4,
-          "difficulty": "medium",
-          "type": "short",
-          "question": "Explain list comprehension.",
-          "answer": "Compact syntax to create lists using expressions."
-        },
-        {
-          "id": 5,
-          "difficulty": "medium",
-          "type": "mcq",
-          "question": "What does PEP stand for?",
-          "options": ["Python Easy Program", "Python Enhancement Proposal", "Program Execution Plan", "Python Entry Point"],
-          "correct": "Python Enhancement Proposal"
-        },
-        {
-          "id": 6,
-          "difficulty": "hard",
-          "type": "short",
-          "question": "Explain GIL in Python.",
-          "answer": "Global Interpreter Lock allows only one thread to execute at a time."
-        },
-        {
-          "id": 7,
-          "difficulty": "hard",
-          "type": "mcq",
-          "question": "Which module supports asynchronous programming?",
-          "options": ["threading", "asyncio", "multiprocessing", "time"],
-          "correct": "asyncio"
-        },
-        {
-          "id": 8,
-          "difficulty": "hard",
-          "type": "mcq",
-          "question": "Which decorator is used for static methods?",
-          "options": ["@classmethod", "@staticmethod", "@method", "@decorator"],
-          "correct": "@staticmethod"
-        },
-        {
-          "id": 9,
-          "difficulty": "interview",
-          "type": "short",
-          "question": "Difference between deep copy and shallow copy?",
-          "answer": "Deep copy duplicates objects; shallow copy references them."
-        },
-        {
-          "id": 10,
-          "difficulty": "interview",
-          "type": "mcq",
-          "question": "Which Python feature supports memory efficiency?",
-          "options": ["List", "Tuple", "Generator", "Dictionary"],
-          "correct": "Generator"
-        }
+        { "id": 1, "level": "Medium", "q": "What is Supervised Learning?", "options": ["Learning with labels", "Learning without labels", "Reward-based learning", "Manual coding"], "a": "Learning with labels" },
+        { "id": 2, "level": "Medium", "q": "Which library is most common for data manipulation in Python?", "options": ["Math", "Pandas", "Request", "PyGame"], "a": "Pandas" },
+        { "id": 3, "level": "Medium", "q": "What does 'Overfitting' mean?", "options": ["Model is too small", "Model performs well on training but bad on test", "Model is perfect", "Model uses too much RAM"], "a": "Model performs well on training but bad on test" },
+        { "id": 4, "level": "Medium", "q": "What is a 'Gradient' in ML?", "options": ["A color shift", "Derivative of a cost function", "A type of dataset", "Linear regression line"], "a": "Derivative of a cost function" },
+        { "id": 5, "level": "Medium", "q": "Which activation function is most used in Hidden Layers?", "options": ["Sigmoid", "ReLU", "Step", "Linear"], "a": "ReLU" },
+        { "id": 6, "level": "Hard", "q": "What is the purpose of 'Regularization' (L1/L2)?", "options": ["Speed up training", "Prevent overfitting", "Increase accuracy on training", "Data cleaning"], "a": "Prevent overfitting" },
+        { "id": 7, "level": "Hard", "q": "How does a CNN (Convolutional Neural Network) process images?", "options": ["Pixel by pixel scanning", "Extracting features using filters", "Converting to text", "Random guessing"], "a": "Extracting features using filters" },
+        { "id": 8, "level": "Hard", "q": "What is 'Backpropagation'?", "options": ["Moving data forward", "Updating weights based on error", "Deleting neurons", "Input normalization"], "a": "Updating weights based on error" },
+        { "id": 9, "level": "Hard", "q": "What is the 'Bias-Variance Tradeoff'?", "options": ["Balancing underfitting and overfitting", "Speed vs Accuracy", "RAM vs CPU", "Cost vs Benefit"], "a": "Balancing underfitting and overfitting" },
+        { "id": 10, "level": "Hard", "q": "What is 'Feature Engineering'?", "options": ["Designing the CPU", "Creating new input variables from raw data", "Writing clean code", "Visualizing graphs"], "a": "Creating new input variables from raw data" },
+        { "id": 11, "level": "Interview", "q": "Explain the vanishing gradient problem.", "options": ["Gradients become too large", "Gradients become zero in deep networks", "Model stops learning", "Weights disappear"], "a": "Gradients become zero in deep networks" },
+        { "id": 12, "level": "Interview", "q": "What is the difference between L1 and L2 regularization?", "options": ["L1 creates sparse weights, L2 reduces all weights", "L2 is faster", "L1 is only for text", "No difference"], "a": "L1 creates sparse weights, L2 reduces all weights" },
+        { "id": 13, "level": "Interview", "q": "What is an 'Optimizer' (e.g., Adam)?", "options": ["Algorithm to minimize the loss function", "A hardware component", "A data scaler", "A file compressor"], "a": "Algorithm to minimize the loss function" },
+        { "id": 14, "level": "Interview", "q": "How do you handle 'Imbalanced Data'?", "options": ["Delete data", "Oversampling/Undersampling", "Add more features", "Ignore it"], "a": "Oversampling/Undersampling" },
+        { "id": 15, "level": "Interview", "q": "What is 'Transfer Learning'?", "options": ["Moving computers", "Using a pre-trained model on a new task", "Teaching others ML", "Saving weights to a disk"], "a": "Using a pre-trained model on a new task" }
+      ]
+    },
+    {
+      "career_id": "cyber_security_engineer",
+      "questions": [
+        { "id": 1, "level": "Medium", "q": "What does 'CIA Triad' stand for?", "options": ["Coding, Intranet, Access", "Confidentiality, Integrity, Availability", "Central, Internal, Active", "Cyber, Information, Attack"], "a": "Confidentiality, Integrity, Availability" },
+        { "id": 2, "level": "Medium", "q": "Which protocol is used for secure web browsing?", "options": ["HTTP", "HTTPS", "FTP", "SNMP"], "a": "HTTPS" },
+        { "id": 3, "level": "Medium", "q": "What is a 'Phishing' attack?", "options": ["Hacking a server", "Social engineering to steal credentials", "Brute forcing", "Physical theft"], "a": "Social engineering to steal credentials" },
+        { "id": 4, "level": "Medium", "q": "What is the purpose of a Firewall?", "options": ["Speed up internet", "Monitor/Filter incoming/outgoing traffic", "Store passwords", "Scan for viruses"], "a": "Monitor/Filter incoming/outgoing traffic" },
+        { "id": 5, "level": "Medium", "q": "What is 'Encryption'?", "options": ["Deleting data", "Converting plain text to cipher text", "Compressing files", "Sending emails"], "a": "Converting plain text to cipher text" },
+        { "id": 6, "level": "Hard", "q": "What is a 'SQL Injection' attack?", "options": ["Deleting a database", "Injecting malicious SQL code into queries", "Crashing a website", "Stealing cookies"], "a": "Injecting malicious SQL code into queries" },
+        { "id": 7, "level": "Hard", "q": "Explain 'Salting' in password hashing.", "options": ["Adding random data to password before hashing", "Making the password longer", "Encrypting the hash", "Using a secret key"], "a": "Adding random data to password before hashing" },
+        { "id": 8, "level": "Hard", "q": "What is a 'Zero-Day' vulnerability?", "options": ["Old bug", "Vulnerability unknown to the vendor", "Bug fixed instantly", "Easy-to-exploit bug"], "a": "Vulnerability unknown to the vendor" },
+        { "id": 9, "level": "Hard", "q": "What is a 'Man-in-the-Middle' (MITM) attack?", "options": ["Stealing a laptop", "Intercepting communication between two parties", "Brute forcing a login", "Spamming emails"], "a": "Intercepting communication between two parties" },
+        { "id": 10, "level": "Hard", "q": "What is 'Penetration Testing'?", "options": ["Testing code speed", "Authorized simulated attack to find vulnerabilities", "Installing antivirus", "Setting up a network"], "a": "Authorized simulated attack to find vulnerabilities" },
+        { "id": 11, "level": "Interview", "q": "How does RSA encryption work?", "options": ["Symmetric key", "Asymmetric key (Public/Private)", "Rotational shift", "Hash based"], "a": "Asymmetric key (Public/Private)" },
+        { "id": 12, "level": "Interview", "q": "Explain the 'XSS' (Cross-Site Scripting) attack.", "options": ["Stealing a server", "Injecting scripts into web pages viewed by others", "Crashing a browser", "Changing CSS"], "a": "Injecting scripts into web pages viewed by others" },
+        { "id": 13, "level": "Interview", "q": "What is a 'Sandbox' in security?", "options": ["Storage for data", "Isolated environment to run suspicious code", "A backup system", "Playground for hackers"], "a": "Isolated environment to run suspicious code" },
+        { "id": 14, "level": "Interview", "q": "What is the difference between Hashing and Encryption?", "options": ["Encryption is one-way", "Hashing is one-way, Encryption is two-way", "They are identical", "Hashing is for files, Encryption is for text"], "a": "Hashing is one-way, Encryption is two-way" },
+        { "id": 15, "level": "Interview", "q": "What is 'Least Privilege' principle?", "options": ["Give everyone admin access", "Give minimum access required for a task", "No access to anyone", "Limited time access"], "a": "Give minimum access required for a task" }
       ]
     }
   ]
 }
-
-
-
-
